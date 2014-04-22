@@ -5,10 +5,32 @@ img{
 
 h1{
 	color: darkgreen;
-	text-shadow: 10px 10px 10px black;
 }
 
 /* Show Grid */
+.bg {
+background: url("../img/green_cup.png");
+}
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
+}
+
+a:link {text-decoration:none;
+color:red;
+}
+a:visited {text-decoration:none;
+color:yellow;
+}
+a:hover {text-decoration:none;
+color:orange;
+}
+a:active {text-decoration:none;
+color:black;
+}
+
+body {font-family: 'Ruluko', sans-serif;
+}
+a { font-family: 'Sniglet', cursive;
+}
+h1 {text-align: center;
 }
